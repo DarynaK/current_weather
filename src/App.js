@@ -25,7 +25,7 @@ class App extends Component {
                     icon: data.weather[0].icon,
                 })
             })
-            .catch(er => console.log(er))
+            .catch(error => console.log(error))
     }
 
     render() {
