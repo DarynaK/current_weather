@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.form_container {
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form_container .ant-btn-primary {
+    color: #000;
+}
+
+.form_container .ant-input {
+    margin-right: 2vw;
+}
+
+.weather_response {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 6vh auto;
+    border-radius: 10px;
+}
+
+.form_container .ant-card {
+    border-radius: 10px;
+}
+
